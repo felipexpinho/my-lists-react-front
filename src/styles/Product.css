@@ -1,0 +1,85 @@
+h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+nav {
+    background-color: #8EB2D9;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    flex: 0 0 150px;
+    margin-right: 10px;
+}
+
+.product-image img {
+    max-width: 100%;
+    max-height: 150px; /* Tamanho máximo da imagem em altura */
+    height: auto;
+}
+
+.product-info {
+    flex: 1;
+    text-align: left;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+.product-graph {
+    display: flex;
+    align-items: right;
+}
+
+.store-logo {
+    max-width: 50px; /* Tamanho máximo da imagem do logo */
+    height: auto;
+}
+
+.btn-square {
+    width: 40px;
+    height: 40px;
+}
+
+.accordion-header-style {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.plotly-graph {
+    height: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.input-group {
+    width: 350px !important;
+}
+
+.product-hover {
+  transition: transform 0.2s ease; /* animação suave */
+}
+
+.product-hover:hover {
+  transform: scale(1.05); /* aumenta 5% */
+}
+
+.price-history-chart {
+    height: 300px;
+    width: 400px;
+}

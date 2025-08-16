@@ -1,0 +1,103 @@
+/* :root {
+  --background-color: #0046FF;
+  --background-navbar-color: #FF8040;
+  --footer-color: #FF8040;
+  --highlight-color: #E9E9E9;
+  --footer-text-color: black;
+} */
+
+/* :root {
+  --background-color: #8EB2D9;
+  --background-navbar-color: #00254E;
+  --footer-color: #00254E;
+  --highlight-color: #E9E9E9;
+  --footer-text-color: black;
+} */
+
+/* :root {
+  --background-color: #F6EFD2;
+  --background-navbar-color: #E43636;
+  --footer-color: #E2DDB4;
+  --highlight-color: #000000;
+  --footer-text-color: black;
+} */
+
+:root {
+  --background-color: #7A85C1;
+  --background-navbar-color: #1A2A80;
+  --footer-color: #3B38A0;
+  --highlight-color: #B2B0E8;
+  --footer-text-color: white;
+}
+
+body, html {
+    background-color: var(--background-color) !important;
+}
+
+h1 {
+    color: black;
+}
+
+nav {
+    background-color: var(--background-navbar-color) !important;
+    border-right: transparent !important;
+}
+
+.footer form button {
+    color: white;
+}
+
+.footer form button:hover {
+    color: #94A4AB;
+}
+
+nav .container-fluid .navbar-brand {
+    color: white;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* altura total da tela */
+}
+
+.home-content {
+    flex: 1;
+    max-width: 1280px;
+    width: 79vw;
+    min-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* centraliza texto e inline-blocks */
+}
+
+.footer {
+    height: 60px;
+    color: var(--footer-text-color);
+    background-color: var(--footer-color);
+    text-align: center;
+    padding-top: 15px;
+    user-select: none;
+}
+
+/* Estilo para a cor dos links na barra de navegação */
+.navbar-nav .nav-item .nav-link {
+    color: #000; /* Cor do texto para links não visitados */
+}
+
+/* Estilo para a cor do link ativo na barra de navegação */
+.navbar-nav .nav-item .nav-link.active {
+    color: #94A4AB; /* Cor do texto para link ativo */
+}
+
+/* Estilo para a cor do link ativo na barra de navegação */
+.navbar-nav .nav-item .nav-link.active:hover {
+    color: white; /* Cor do texto para link ativo */
+}
+
+.hidden-breaks {
+    user-select: none;
+}
+
+.MuiPagination-ul {
+    background: var(--background-color) !important;
+}
