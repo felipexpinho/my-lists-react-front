@@ -1,12 +1,25 @@
-# React + Vite
+# React Frond End for my-lists
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend part of a personal project involving getting data from websites via webscraping, displaying these items to users tracking it's price and allowing users to create lists to help them further with tracking the prices of full list components.
 
-Currently, two official plugins are available:
+Currently the project is being adapted to a separated front-end/back-end as I'm currently learning React. Most of the features are still under development: The authentication process, the lists page and much more.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Frontend stack / Tools used:
 
-## Expanding the ESLint configuration
+**React + Vite**: Base framework and build tool.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Plotly**: For plotting interactive graphs.
+
+**MUI (Material-UI)**: For pagination and UI components.
+
+**Bootstrap**: For CSS styling and layout.
+
+**react-dom**: Needed for rendering React components.
+
+# Screenshots
+
+Home screen
+
+![Home Page](assets/home_page.png)
+
+![Home Page Bottom](assets/home_page_2.png)
